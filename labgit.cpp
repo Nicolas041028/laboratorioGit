@@ -12,7 +12,7 @@ int main () {
         string linea;
 
         while (getline(archivoEntrada, linea)) {
-            archivoSalida << linea;
+            archivoSalida << linea <<endl;
         }
         cout<<"Archivo copiado correctamente"<<endl;
     }
